@@ -7,7 +7,7 @@ function Project({ children, ...props }) {
           <p className="text-sm">{props.description}</p>
         </div>
 
-        <div className=" bg-red-100 flex justify-center items-center ">
+        <div className=" bg-green-100 flex justify-center items-center ">
           <p className="text-xl font-semibold">{props.image}</p>
         </div>
 
