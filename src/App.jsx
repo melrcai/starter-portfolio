@@ -4,6 +4,8 @@ import NavButton from './components/NavButton'
 import Project from './components/Project'
 import mel from './assets/mel.jpg'
 import StudentRecord from './assets/StudentRecord.gif'
+import GdgPomodoro from './assets/GdgPomodoro.gif'
+import DungeonCrawler from './assets/DungeonCrawler.gif'
 import { TiSocialFacebookCircular } from "react-icons/ti";
 import { IoLogoInstagram } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
@@ -53,8 +55,8 @@ function App() {
           <div className="flex mx-auto md:flex-row justify-center items-center flex-col items-center justify-center gap-4 mt-12">
 
             <Project description="Des" image={<img src={StudentRecord} alt="Student Record" className="w-full h-[8rem] xs:w-80 xs:h-58 object-contain block rounded md:rounded-lg shadow-lg transition-transform duration-500 ease-in-out hover:scale-110" />}>Project 1</Project>
-            <Project description="Des" image={<img src={StudentRecord} alt="Student Record" className="w-full h-[8rem] xs:w-80 xs:h-58 object-contain block rounded md:rounded-lg shadow-lg transition-transform duration-500 ease-in-out hover:scale-110" />}>Project 1</Project>
-            <Project description="Des" image={<img src={StudentRecord} alt="Student Record" className="w-full h-[8rem] xs:w-80 xs:h-58 object-contain block rounded md:rounded-lg shadow-lg transition-transform duration-500 ease-in-out hover:scale-110" />}>Project 1</Project>
+            <Project description="Des" image={<img src={GdgPomodoro} alt="GDG Pomodoro" className="w-full h-[8rem] xs:w-80 xs:h-58 object-contain block rounded md:rounded-lg shadow-lg transition-transform duration-500 ease-in-out hover:scale-110" />}>Project 1</Project>
+            <Project description="Des" image={<img src={DungeonCrawler} alt="Dungeon Crawler" className="w-full h-[8rem] xs:w-80 xs:h-58 object-contain block rounded md:rounded-lg shadow-lg transition-transform duration-500 ease-in-out hover:scale-110" />}>Project 1</Project>
 
           </div>
         </div>
