@@ -13,7 +13,7 @@ import { FaLinkedin } from "react-icons/fa";
 function App() {
   return (
     <>
-    <div className="bg-gray-400 w-full min-h-screen min-w-screen">
+    <div className="min-h-screen w-full bg-gray-400">
 
       <div className="border grid grid-cols-2 gap-4 h-12 text-l font-semibold p-2">
 
