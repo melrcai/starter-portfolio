@@ -38,7 +38,7 @@ function App() {
           transition-transform duration-500 ease-in-out hover:scale-110" src={mel} alt="MM" />
         </div>
         <div className=" justify-center items-center ">
-          <p className="text-[clamp(1.25rem,2vw,1.5rem)]  font-semibold">Melissa D. Marcaida</p>
+          <p className="text-[clamp(1.25rem,2vw,1.5rem)] font-semibold">Melissa D. Marcaida</p>
           <p className="text-[clamp(0.75rem,2.5vw,1rem)]">Aspiring Software Engineer</p>
           <p className="text-[clamp(0.25rem,2.5vw,0.75rem)]">Currently a 2nd year student at Polytechnic University of the Philippines</p>
         </div>
@@ -54,9 +54,17 @@ function App() {
 
           <div className="flex mx-auto md:flex-row justify-center items-center flex-col items-center justify-center gap-4 mt-12">
 
-            <Project description="Des" image={<img src={StudentRecord} alt="Student Record" className="w-full h-[8rem] xs:w-80 xs:h-58 object-contain block rounded md:rounded-lg shadow-lg transition-transform duration-500 ease-in-out hover:scale-110" />}>Project 1</Project>
-            <Project description="Des" image={<img src={GdgPomodoro} alt="GDG Pomodoro" className="w-full h-[8rem] xs:w-80 xs:h-58 object-contain block rounded md:rounded-lg shadow-lg transition-transform duration-500 ease-in-out hover:scale-110" />}>Project 1</Project>
-            <Project description="Des" image={<img src={DungeonCrawler} alt="Dungeon Crawler" className="w-full h-[8rem] xs:w-80 xs:h-58 object-contain block rounded md:rounded-lg shadow-lg transition-transform duration-500 ease-in-out hover:scale-110" />}>Project 1</Project>
+            <Project description="Des" image={<img src={StudentRecord} alt="Student Record" 
+            className="w-full h-[8rem] xs:w-80 xs:h-58 object-contain block rounded-lg" />}>
+             Student Record </Project>
+
+            <Project description="Des" image={<img src={GdgPomodoro} alt="GDG Pomodoro" 
+            className="w-[11rem] xs:w-80 md:w-64 md:h-58 object-cover block rounded" />}>
+             Pomodoro Timer </Project>
+
+            <Project description="Des" image={<img src={DungeonCrawler} alt="Dungeon Crawler" 
+            className="w-[11rem] h-[4rem] xs:w-80 xs:h-28 object-contain rounded-lg" />}>
+             Dungeon Crawler </Project>
 
           </div>
         </div>
