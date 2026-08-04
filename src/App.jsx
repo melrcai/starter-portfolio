@@ -32,7 +32,7 @@ function App() {
       </div>
 
 
-      <div className="flex mx-auto p-4 justify-center items-center h-45 flex-row items-center justify-center gap-4">
+      <div className="flex mx-auto p-4 justify-center items-center h-45 flex-row gap-4">
         <div className="md:shrink-0 overflow-hidden rounded-full">
           <img className=" w-32 h-[6rem] xs:h-32 object-cover block rounded md:rounded-full shadow-lg
           transition-transform duration-500 ease-in-out hover:scale-110" src={mel} alt="MM" />
@@ -52,17 +52,17 @@ function App() {
         <div>
           <p className="border mx-auto text-center font-semibold p-2 mt-6">Projects</p>
 
-          <div className="flex mx-auto md:flex-row justify-center items-center flex-col items-center justify-center gap-4 mt-12">
+          <div className="flex mx-auto md:grid md:grid-cols-3 md:items-center justify-items-center flex-col items-center p-4 gap-4 mt-12">
 
-            <Project description="Des" image={<img src={StudentRecord} alt="Student Record" 
+            <Project description="Tech Stack: C" image={<img src={StudentRecord} alt="Student Record" 
             className="w-full h-[8rem] xs:w-80 xs:h-58 object-contain block rounded-lg" />}>
              Student Record </Project>
 
-            <Project description="Des" image={<img src={GdgPomodoro} alt="GDG Pomodoro" 
+            <Project description="Tech Stack: HTML5, CSS3, JavaScript" image={<img src={GdgPomodoro} alt="GDG Pomodoro" 
             className="w-[11rem] xs:w-80 md:w-64 md:h-58 object-cover block rounded" />}>
              Pomodoro Timer </Project>
 
-            <Project description="Des" image={<img src={DungeonCrawler} alt="Dungeon Crawler" 
+            <Project description="Tech Stack: C++" image={<img src={DungeonCrawler} alt="Dungeon Crawler" 
             className="w-[11rem] h-[4rem] xs:w-80 xs:h-28 object-contain rounded-lg" />}>
              Dungeon Crawler </Project>
 
@@ -78,11 +78,11 @@ function App() {
 
         <hr className="mx-auto max-w-md mt-2 border-1 border-black" />
 
-        <div className="mx-auto text-center justify-center items-center max-w-md flex justify-center items-center mt-2">
+        <div className="mx-auto text-center max-w-md flex justify-center items-center mt-2">
           <p className=" text-l font-semibold mx-auto">Have a project in mind? Let's connect!</p>
         </div>
 
-        <div className="mx-auto max-w-md flex justify-center items-center flex-row gap-6 items-center mt-4">
+        <div className="mx-auto max-w-md flex justify-center flex-row gap-6 items-center mt-4">
           <div className="hover:bg-gray-500/30 active:bg-gray-500/50 duration-300 w-12 h-12 rounded-full flex justify-center items-center ">
             <TiSocialFacebookCircular className="text-6xl" />
           </div>
