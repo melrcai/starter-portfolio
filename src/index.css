@@ -16,3 +16,7 @@ body,
 body {
   background-color:#9ca3af;
 }
+
+html {
+  scroll-behavior: smooth;
+}
