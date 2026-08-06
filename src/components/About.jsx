@@ -2,7 +2,7 @@ import mel from '../assets/mel.jpg'
 
 function About () {
   return (
-    <>
+    <section id="about">
       <div className="flex mx-auto p-4 justify-center items-center h-45 flex-row gap-4">
         <div className="md:shrink-0 overflow-hidden rounded-full">
           <img className=" w-32 h-[6rem] xs:h-32 object-cover block rounded md:rounded-full shadow-lg
@@ -19,7 +19,7 @@ function About () {
         <div className="mx-auto text-center p-2 font-semibold flex justify-center items-center">
           <p className="text-[clamp(0.75rem,2vw,1rem)] ">A self taught ambitious b*tch with a passion in software development. Still a NOOB in everything yet exploring C++, Javascript, and React.</p>
         </div>
-    </>
+    </section>
   )
 }
 

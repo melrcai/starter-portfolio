@@ -4,7 +4,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 function Contact () {
   return (
-    <section id="contact" className="pt-8 pb-8">
+    <section id="contact" className="pt-4 pb-8">
         <div className="mx-auto text-center max-w-md flex justify-center items-center mt-2">
           <p className=" text-l font-semibold mx-auto">Have a project in mind? Let's connect!</p>
         </div>
